@@ -18,7 +18,7 @@
 * { box-sizing: border-box; }
 html { background: var(--night); }
 body { margin: 0; background: var(--night); color: var(--ink); font: 500 17px/1.55 Montserrat, "Avenir Next", "Segoe UI", system-ui, sans-serif; }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 a { color: var(--amber); }
 a:focus-visible, .btn:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
 .wrap { max-width: 1080px; margin: 0 auto; padding: 0 var(--space-6); }
@@ -60,7 +60,7 @@ section > .wrap > .headline { margin-bottom: var(--space-8); }
 .btn-secondary:hover { background: var(--surface-raised); }
 .game .links { margin-top: var(--space-6); }
 .game .links a { margin-right: var(--space-4); }
-.phones { display: flex; gap: var(--space-4); }
+.phones { display: flex; align-items: flex-start; gap: var(--space-4); }
 .phone { width: 160px; border-radius: 32px; padding: 8px; background: var(--surface-raised); box-shadow: var(--glow-teal); }
 .phone img { border-radius: 25px; }
 .phone:nth-child(2) { margin-top: var(--space-12); }
